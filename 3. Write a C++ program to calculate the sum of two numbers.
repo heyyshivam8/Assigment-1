@@ -1,0 +1,12 @@
+// 3. Write a C++ program to calculate the sum of two numbers.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,sum;
+    cout<<"Enter the two values";
+    cin>>a>>b;
+    sum=a+b;
+    cout<<"total sum of "<<a<< " and "<<b<<" is "<< sum;
+    return 0;
+}
