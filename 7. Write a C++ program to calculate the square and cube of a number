@@ -1,0 +1,15 @@
+// 7. Write a C++ program to calculate the square and cube of a number
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,squrt=0,cube=0;
+    cout<<"Enter the values";
+    cin>>a;
+    squrt=a*a;
+    cube=a*a*a;
+    cout<<"total volume of cuboid  is "<< squrt;
+    cout<<endl;
+    cout<<"total volume of cuboid  is "<< cube;
+    return 0;
+}
