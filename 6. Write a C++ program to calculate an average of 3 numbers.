@@ -1,0 +1,12 @@
+// 6. Write a C++ program to calculate an average of 3 numbers.
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a,b,c,average=0;
+    cout<<"Enter the required values";
+    cin>>a>>b>>c;
+    average=a+b+c/300;
+    cout<<"total volume of cuboid  is "<< average;
+    return 0;
+}
